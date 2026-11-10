@@ -1,0 +1,14 @@
+{
+  "name": "encuentrame-servidor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Puente en tiempo real entre Encuéntrame (móvil) y Encuéntrame Reloj",
+  "scripts": {
+    "start": "node servidor.js",
+    "prueba": "node prueba.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.2"
+  }
+}

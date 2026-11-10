@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# Vínculos guardados por el servidor (se crean al usar la app)
+servidor/datos.json

@@ -1,0 +1,15 @@
+{
+  "name": "encuentrame",
+  "private": true,
+  "description": "Encuéntrame: app móvil (Expo) + smartwatch emulado para encontrar a los tuyos siguiendo una flecha",
+  "scripts": {
+    "instalar": "npm --prefix servidor install && npm --prefix movil install && npm --prefix reloj install",
+    "servidor": "npm --prefix servidor start",
+    "reloj": "node iniciar-reloj.js",
+    "movil": "npm --prefix movil start",
+    "prueba": "npm --prefix servidor run prueba"
+  },
+  "dependencies": {
+    "expo": "^58.0.23"
+  }
+}
